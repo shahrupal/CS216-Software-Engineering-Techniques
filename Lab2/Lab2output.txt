@@ -1,0 +1,19 @@
+61936:Star Wars: A Musical Journey (2005) (V)
+61938:Star Wars: Episode III - Revenge of the Sith (2005)
+61944:Star Wars: Revelations (2005) (V)
+3539:American Yearbook (2004)
+9459:Book of Love (2004)
+13425:Comic Book: The Movie (2004) (V)
+40333:Little Black Book (2004)
+58060:Secret Window: From Book to Film (2004) (V)
+70818:The Notebook (2004)
+    5  sort imdb.txt > ./imdb_sorted.txt
+    6  cat imdb_sorted.txt
+    7  grp -i -n -w '^star wars.*2005' imdb_sorted.txt > ./Lab2output.txt
+    8  gerp -i -n -w '^star wars.*2005' imdb_sorted.txt > ./Lab2output.txt
+    9  grep -i -n -w '^star wars.*2005' imdb_sorted.txt > ./Lab2output.txt
+   10  cat Lab2output.txt
+   11  grep -i -n 'book.*2004' imdb_sorted.txt
+   12  grep -i -n 'book.*2004' imdb_sorted.txt >> ./Lab2output.txt
+   13  cat Lab2output.txt
+   14  history | tail -10 >> Lab2output.txt
