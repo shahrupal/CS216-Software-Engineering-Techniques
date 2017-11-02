@@ -1,0 +1,29 @@
+/home/rsh239/CS216/Lab1
+ ________________________________________
+< Hello, Mehul Agrawal. I am Rupal Shah. >
+ ----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+    1  mkdir CS216
+    2  cd CS216
+    3  pwd
+    4  mkdir Lab1
+    5  cd Lab1
+    6  pwd
+    7  ls
+    8  pwd
+    9  pwd > file1
+   10  cat file1
+   11  cowsay "Hello, Mehul Agrawal. I am Rupal Shah." >> file1
+   12  cat file1
+   13  echo shell
+   14  echo $shell
+   15  echo $SHELL
+   16  man ls4
+   17  man ls
+   18  man pwd
+   19  man cowsay
+   20  history > file2
